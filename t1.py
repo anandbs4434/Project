@@ -6,7 +6,6 @@ def square(d):
         lt(90)
 
 
-
 def polygon(side=3, dis=100):
     for i in range(side):
       fd(dis)
