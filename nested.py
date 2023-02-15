@@ -1,17 +1,17 @@
 from turtle import *
 speed(0)
 
-fillcolor('#ff9090')
-pencolor('#98fd9f')
+fillcolor('blue')
+pencolor('black')
 pensize(3)
 side = 6
 pu()
 goto(-150, 200)
 pd()
 for i in range(side):
-    fd(150)
+    fd(100)
     for i in range(side):
-        fd(100)
+        fd(90)
         begin_fill()
         for i in range(side):
             fd(50)

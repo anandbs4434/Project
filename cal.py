@@ -11,15 +11,15 @@ while True:
     if ch=='1':
         a=int(input("Enter the number "))
         b=int(input("Enter the number "))
-        print(f'{a}+{b} = {a+b}')
+        print(f'{a} + {b} = {a+b}')
     elif ch=='2':
         a=int(input("Enter the number "))
         b=int(input("Enter the number "))
-        print(f'{a}-{b} = {a-b}')
+        print(f'{a} - {b} = {a-b}')
     elif ch=='3':
         a=int(input("Enter the number "))
         b=int(input("Enter the number "))
-        print(f'{a}*{b} = {a*b}')
+        print(f'{a} * 1{b} = {a*b}')
     elif ch=='4':
         print("☠️ ☠️ ☠️ ☠️")
         break
